@@ -2,26 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* castom color */
+.color{
+  color: #21BF73;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.btn-color{
+  background-color: #21BF73;
+  color: white;
+}
+/* header.js file css */
+ul li{
+  cursor: pointer;
+  transition: border .2s;
+  border: 1px solid #0e21a000;
+  padding: 0 8px;
+}
+ul li:hover{
+color: #0E21A0;
+border: 1px solid #001493;
+border-radius: 2px;
+background-color: #bdbdbd7e;
 }
