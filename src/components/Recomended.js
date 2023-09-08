@@ -21,7 +21,7 @@ const addImage = (imageName,heddingText)=>{
 export default function Recomended() {
   return (
     <main>
-      <div className=' container m-auto mt-20 mb-14'>
+      <div className=' container m-auto mt-20 mb-14 '>
         <h1 className='font-bold text-4xl color mb-8'>Recommended</h1>
         <div className='flex justify-between w-full gap-7'>
 
